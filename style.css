@@ -1,0 +1,144 @@
+/* SIGN UP START */
+
+.sign-form{
+    background: linear-gradient(#e6b55ac2,#ff0000eb) !important;
+}
+.col-md-6{
+    margin: auto;
+}
+
+/* SIGN UP END */
+
+.col-md-2 img{
+    margin-top: 20px;
+    margin-left: 20%;
+}
+.social-part .fa{
+    padding-right:20px;
+}
+ul li a{
+    margin-right: 20px;
+}
+.jumbotron {
+    background: transparent;
+}
+a.btn.btn-outline-primary.btn-lg {
+    width: 183px;
+}
+h1.display-4 {
+    font-size: 42px;
+}
+.row.middle-div {
+    margin-top: 60px;
+}
+p.lead {
+    font-size: 23px;
+    color: #869ABA;
+    font-family: arial;
+}
+.services-ssec {
+    margin: 10% 0%;
+    margin-bottom: 5%;
+}
+.service-title h1 {
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #6d5a5a;
+    border-bottom: 3px solid #e8ce9e;
+    text-shadow: 3px 7px 10px #41336d;
+}
+.link-logo{
+    margin-bottom: 10%;
+}
+footer {
+    background-color: #333333;
+    padding: 2% 0%;
+}
+.col-md-7 a {
+    text-align: right !important;
+    float: right;
+    padding: 0px 15px;
+    color: #ffffff;
+}
+.maps-sec{
+    margin-bottom: 5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* HOVER CSS START */
+.card.mb-4.shadow-sm:hover .title-icon{
+    color: orange;
+    transition: all 0.5s ease-in-out;
+}
+.card.mb-4.shadow-sm:hover .card-header-title{
+    color: #d69213;
+    transition: all 0.5s ease-in-out;
+}
+.card.mb-4.shadow-sm:hover {
+    box-shadow: 3px 2px 8px gray !important;
+    transition: all 0.5s ease-in-out;
+}
+.col-sm-4 img:hover {
+    box-shadow: 0px 0px 10px 4px gray !important;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.col-md-7 a:hover {
+    color: #9d95b5;
+}
+/* HOVER CSS END */
+
+
+
+
+
+
+
+/* RESPONSIVE CSS START */
+
+@media only screen and (max-width: 425px){
+    .logo img{
+        margin: 20px 0px 20px 10px;
+    }
+    .col-md-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 40%;
+        max-width: 46%;
+    }
+}
+@media only screen and (min-width: 426px) and (max-width: 768px){
+    .col-md-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 30.666667%;
+        max-width: 35.666667%;
+    }
+}
+@media only screen and (max-width: 768px){
+    div.mb-4{
+        flex: 1 0 40% !important;
+    }
+    a.btn.btn-primary.btn-lg {
+        margin-bottom: 10px;
+    }
+    .col-md-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin-left: 4%;
+        margin-top: 2%;
+    }
+}
+/* RESPONSIVE CSS END */
